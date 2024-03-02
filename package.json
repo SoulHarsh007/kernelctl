@@ -1,0 +1,22 @@
+{
+  "name": "kernelctl",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@commitlint/cli": "19.0.3",
+    "@commitlint/config-conventional": "19.0.3",
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "7.1.0",
+    "@typescript-eslint/parser": "7.1.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-perfectionist": "2.5.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "husky": "9.0.11",
+    "prettier": "3.2.5",
+    "typescript": "5.3.3"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
